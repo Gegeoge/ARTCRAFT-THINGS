@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <meta
+    name="description"
+    content="Art, Craft & Things — original artwork, handmade crafts, creative projects, and thoughtfully made pieces."
+  />
+
+  <title>Art, Craft & Things</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- Announcement Bar -->
+
+  <div class="announcement-bar">
+    Original art, handmade crafts, and creative things made with intention.
+  </div>
+
+  <!-- Header -->
+
+  <header class="header">
+
+    <a href="index.html" class="logo">
+      Art, Craft & Things
+    </a>
+
+    <button
+      class="menu-button"
+      id="menuButton"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav" id="navigation">
+
+      <a href="#home">Home</a>
+
+      <a href="#explore">Explore</a>
+
+      <a href="#gallery">Gallery</a>
+
+      <a href="#shop">Shop</a>
+
+      <a href="#journal">Journal</a>
+
+      <a href="#about">About</a>
+
+      <a href="#contact">Contact</a>
+
+      <a href="#" class="cart-link">
+        Bag
+        <span class="cart-count">0</span>
+      </a>
+
+    </nav>
+
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+
+    <section class="hero" id="home">
+
+      <div class="hero-slide active">
+        <img
+          src="images/hero-art.JPEG"
+          alt="Original artwork displayed in a creative studio"
+        />
+      </div>
+
+      <div class="hero-slide">
+        <img
+          src="images/hero-craft.jpg"
+          alt="Handmade craft supplies and creative pieces"
+        />
+      </div>
+
+      <div class="hero-slide">
+        <img
+          src="images/hero-things.jpg"
+          alt="Collection of artistic handmade objects"
+        />
+      </div>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content reveal">
+
+        <p class="eyebrow">
+          Create • Make • Inspire
+        </p>
+
+        <h1>
+          Art, Craft
+          <span>& Things</span>
+        </h1>
+
+        <p class="hero-description">
+          A creative home for original artwork, handmade crafts,
+          imaginative projects, and beautifully made things.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a href="#gallery" class="button button-light">
+            Explore the Gallery
+          </a>
+
+          <a href="#shop" class="button button-outline-light">
+            Shop Handmade
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="hero-dots">
+
+        <button
+          class="hero-dot active"
+          data-slide="0"
+          aria-label="Show first hero image"
+        ></button>
+
+        <button
+          class="hero-dot"
+          data-slide="1"
+          aria-label="Show second hero image"
+        ></button>
+
+        <button
+          class="hero-dot"
+          data-slide="2"
+          aria-label="Show third hero image"
+        ></button>
+
+      </div>
+
+    </section>
+
+    <!-- Introduction -->
+
+    <section class="introduction">
+
+      <div class="introduction-content reveal">
+
+        <p class="section-label">
+          Welcome to our creative space
+        </p>
+
+        <h2>
+          Made for people who love beautiful, thoughtful, and creative things.
+        </h2>
+
+        <p>
+          Discover original paintings, handmade décor, wearable crafts,
+          creative kits, custom pieces, and inspiration for your own projects.
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- Explore Categories -->
+
+    <section class="explore-section" id="explore">
+
+      <div class="section-heading reveal">
+
+        <p class="section-label">
+          Discover
+        </p>
+
+        <h2>
+          Explore the Studio
+        </h2>
+
+      </div>
+
+      <div class="category-grid">
+
+        <a href="#gallery" class="category-card category-large reveal">
+
+          <img
+            src="images/category-artwork.JPEG"
+            alt="Original paintings and artwork"
+          />
+
+          <div class="category-overlay"></div>
+
+          <div class="category-content">
+
+            <p>Original and expressive</p>
+
+            <h3>Artwork</h3>
+
+            <span>Explore artwork →</span>
+
+          </div>
+
+        </a>
+
+        <a href="#shop" class="category-card reveal">
+
+          <img
+            src="images/category-crafts.jpg"
+            alt="Handmade crafts and creative products"
+          />
+
+          <div class="category-overlay"></div>
+
+          <div class="category-content">
+
+            <p>Made by hand</p>
+
+            <h3>Crafts</h3>
+
+            <span>Shop crafts →</span>
+
+          </div>
+
+        </a>
+
+        <a href="#journal" class="category-card reveal">
+
+          <img
+            src="images/category-things.jpg"
+            alt="Creative objects and artistic inspiration"
+          />
+
+          <div class="category-overlay"></div>
+
+          <div class="category-content">
+
+            <p>Ideas and inspiration</p>
+
+            <h3>Things</h3>
+
+            <span>Discover more →</span>
+
+          </div>
+
+        </a>
+
+      </div>
+
+    </section>
+
+    <!-- Masonry Gallery -->
+
+    <section class="gallery-section" id="gallery">
+
+      <div class="section-heading reveal">
+
+        <p class="section-label">
+          Selected work
+        </p>
+
+        <h2>
+          The Gallery
+        </h2>
+
+        <p>
+          A collection of artwork, handmade pieces, experiments,
+          and creative moments.
+        </p>
+
+      </div>
+
+      <div class="masonry-gallery">
+
+        <article class="gallery-item reveal">
+
+          <img
+            src="images/gallery-1.JPEG"
+            alt="Abstract canvas painting"
+          />
+
+          <div class="gallery-details">
+
+            <p>Original Artwork</p>
+
+            <h3>Earth and Movement</h3>
+
+          </div>
+
+        </article>
+
+        <article class="gallery-item reveal">
+
+          <img
+            src="images/gallery-2.JPEG"
+            alt="Abstract canvas painting"
+          />
+
+          <div class="gallery-details">
+
+            <p>Original Artwork</p>
+
+            <h3>Water and Movement I</h3>
+
+          </div>
+
+        </article>
+
+        <article class="gallery-item reveal">
+
+          <img
+            src="images/gallery-3.JPEG"
+            alt="Abstract canvas painting"
+          />
+
+          <div class="gallery-details">
+
+            <p>Original Artwork</p>
+
+            <h3>Water and Movement</h3>
+
+          </div>
+
+        </article>
+
+        <article class="gallery-item reveal">
+
+          <img
+            src="images/gallery-4.JPEG"
+            alt="Abstract canvas painting"
+          />
+
+          <div class="gallery-details">
+
+            <p>Original Artwork</p>
+
+            <h3>The Tides</h3>
+
+          </div>
+
+        </article>
+
+        <article class="gallery-item reveal">
+
+          <img
+            src="images/gallery-5.JPEG"
+            alt="Abstract canvas painting"
+          />
+
+          <div class="gallery-details">
+
+            <p>Original Artwork</p>
+
+            <h3>The Forum</h3>
+
+          </div>
+
+        </article>
+
+        <article class="gallery-item reveal">
+
+          <img
+            src="images/gallery-6.JPEG"
+            alt="Abstract canvas painting"
+          />
+
+          <div class="gallery-details">
+
+            <p>Original Artwork</p>
+
+            <h3>Ueven Glides</h3>
+
+          </div>
+
+          </article>
+
+        <article class="gallery-item reveal">
+
+          <img
+            src="images/gallery-7.JPEG"
+            alt="Abstract canvas painting"
+          />
+
+          <div class="gallery-details">
+
+            <p>Original Artwork</p>
+
+            <h3>Fire Spikes</h3>
+
+          </div>
+
+        </article>
+        </article>
+
+        <article class="gallery-item reveal">
+
+          <img
+            src="images/gallery-8.JPEG"
+            alt="Ceramic Bowl"
+          />
+
+          <div class="gallery-details">
+
+            <p>Handcrafted</p>
+
+            <h3>Handmade Ceramic Bowl</h3>
+
+          </div>
+
+        </article>
+        </article>
+
+        <article class="gallery-item reveal">
+
+          <img
+            src="images/gallery-9.jpg"
+            alt="Ceramic Bowl"
+          />
+
+          <div class="gallery-details">
+
+            <p>Handcrafted</p>
+
+            <h3>Handmade Ceramic Bowl</h3>
+
+          </div>
+
+        </article>
+        </article>
+
+        <article class="gallery-item reveal">
+
+          <img
+            src="images/gallery-10.jpg"
+            alt="Ceramic Bowl"
+          />
+
+          <div class="gallery-details">
+
+            <p>Handcrafted</p>
+
+            <h3>Handmade Ceramic Bowl</h3>
+
+          </div>
+
+        </article>
+        </article>
+
+        <article class="gallery-item reveal">
+
+          <img
+            src="images/gallery-11.JPEG"
+            alt="Decorative handmade home object"
+          />
+
+          <div class="gallery-details">
+
+            <p>Decorative Craft</p>
+
+            <h3>Mini storage bag</h3>
+
+          </div>
+
+        </article>
+        </article>
+
+        <article class="gallery-item reveal">
+
+          <img
+            src="images/gallery-12.jpg"
+            alt="Decorative handmade home object"
+          />
+
+          <div class="gallery-details">
+
+            <p>Decorative Craft</p>
+
+            <h3>Wooden Bowl centerpiece</h3>
+
+          </div>
+
+        </article>
+        </article>
+
+        <article class="gallery-item reveal">
+
+          <img
+            src="images/gallery-13.JPEG"
+            alt="Abstract canvas painting"
+          />
+
+          <div class="gallery-details">
+
+            <p>Original Artwork</p>
+
+            <h3>Blue lanes</h3>
+
+          </div>
+
+        </article>
+
+      </div>
+
+      <div class="center-button reveal">
+
+        <a href="#shop" class="text-link">
+          View pieces available for purchase →
+        </a>
+
+      </div>
+
+    </section>
+
+    <!-- Shop -->
+
+    <section class="shop-section" id="shop">
+
+      <div class="section-heading reveal">
+
+        <p class="section-label">
+          Available now
+        </p>
+
+        <h2>
+          Shop Handmade
+        </h2>
+
+        <p>
+          Original artwork and handmade crafts created in small quantities.
+        </p>
+
+      </div>
+
+      <div class="product-grid">
+
+        <article class="product-card reveal">
+
+          <div class="product-image-container">
+
+            <img
+              src="images/product-1.JPEG"
+              alt="Abstract canvas artwork"
+            />
+
+            <span class="product-badge">
+              Original
+            </span>
+
+          </div>
+
+          <div class="product-information">
+
+            <p class="product-category">
+              Artwork
+            </p>
+
+            <h3>
+              Abstract Earth Canvas
+            </h3>
+
+            <p class="product-description">
+              Original acrylic painting with warm natural tones.
+            </p>
+
+            <div class="product-bottom">
+
+              <span class="product-price">
+                $70
+              </span>
+
+              <button
+                class="add-to-cart"
+                data-product="Abstract Earth Canvas"
+              >
+                Add to Bag
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+        <article class="product-card reveal">
+
+          <div class="product-image-container">
+
+            <img
+              src="images/product-2.JPEG"
+              alt="Original Acrylic Painting on Canvas"
+            />
+
+            <span class="product-badge">
+              Original
+            </span>
+
+          </div>
+
+          <div class="product-information">
+
+            <p class="product-category">
+              Artwork
+            </p>
+
+            <h3>
+              Original Acrylic Painting on Canvas
+            </h3>
+
+            <p class="product-description">
+              Original acrylic painting with warm natural tones.
+            </p>
+
+            <div class="product-bottom">
+
+              <span class="product-price">
+                $80
+              </span>
+
+              <button
+                class="add-to-cart"
+                data-product="Original Acrylic Painting on Canvas"
+              >
+                Add to Bag
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+        <article class="product-card reveal">
+
+          <div class="product-image-container">
+
+            <img
+              src="images/product-3.JPEG"
+              alt="Abstract canvas artwork"
+            />
+
+            <span class="product-badge">
+              Original
+            </span>
+
+          </div>
+
+          <div class="product-information">
+
+            <p class="product-category">
+              Artwork
+            </p>
+
+            <h3>
+              Acrylic Painting on Canvas
+            </h3>
+
+            <p class="product-description">
+              Original acrylic painting with warm natural tones.
+            </p>
+
+            <div class="product-bottom">
+
+              <span class="product-price">
+                $50
+              </span>
+
+              <button
+                class="add-to-cart"
+                data-product="Acrylic Painting on Canvas"
+              >
+                Add to Bag
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+        <article class="product-card reveal">
+
+          <div class="product-image-container">
+
+            <img
+              src="images/product-4.JPEG"
+              alt="Abstract canvas artwork"
+            />
+
+            <span class="product-badge">
+              Original
+            </span>
+
+          </div>
+
+          <div class="product-information">
+
+            <p class="product-category">
+              Artwork
+            </p>
+
+            <h3>
+              Acrylic Painting on Canvas
+            </h3>
+
+            <p class="product-description">
+              Original acrylic painting with warm natural tones.
+            </p>
+
+            <div class="product-bottom">
+
+              <span class="product-price">
+                $45
+              </span>
+
+              <button
+                class="add-to-cart"
+                data-product="Acrylic Painting on Canvas"
+              >
+                Add to Bag
+              </button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- Custom Work -->
+
+    <section class="custom-section">
+
+      <div class="custom-image reveal">
+
+        <img
+          src="images/custom-work.jpg"
+          alt="Artist creating a handmade custom piece"
+        />
+
+      </div>
+
+      <div class="custom-content reveal">
+
+        <p class="section-label">
+          Something personal
+        </p>
+
+        <h2>
+          Custom Pieces Made for You
+        </h2>
+
+        <p>
+          Looking for a particular size, color, theme, or personalized gift?
+          Custom artwork and handmade pieces can be created for your home,
+          celebration, or someone special.
+        </p>
+
+        <a href="mailto:gegeanyanwu@yahoo.com?subject=Custom%20Piece%20Request">
+    Request a Custom Piece
+</a>
+
+      </div>
+
+    </section>
+
+    <!-- Creative Journal -->
+
+    <section class="journal-section" id="journal">
+
+      <div class="section-heading reveal">
+
+        <p class="section-label">
+          Ideas from the studio
+        </p>
+
+        <h2>
+          Creative Journal
+        </h2>
+
+        <p>
+          Behind-the-scenes stories, tutorials, materials, and inspiration.
+        </p>
+
+      </div>
+
+      <div class="journal-grid">
+
+        <article class="journal-card reveal">
+
+          <img
+            src="images/journal-1.JPEG"
+            alt="The Beauty of Handmade"
+          />
+
+          <div class="journal-content">
+
+            <p>
+              Handmade & Imperfect
+            </p>
+
+            <h3>
+                The Beauty of Handmade: Why Imperfection Matters
+            </h3>
+
+            <a href="journal/the-beauty-of-handmade.html">
+              Read story →
+            </a>
+
+          </div>
+
+        </article>
+
+        <article class="journal-card reveal">
+
+          <img
+            src="images/journal-2.JPEG"
+            alt="Clay craft in progress"
+          />
+
+          <div class="journal-content">
+
+            <p>
+              Nature & Art
+            </p>
+
+            <h3>
+              How Nature Inspires Great Art
+            </h3>
+
+            <a href="journal/how-nature-inspires-great-art.html">
+              Read story →
+            </a>
+
+          </div>
+
+        </article>
+
+        <article class="journal-card reveal">
+
+          <img
+            src="images/journal-3.JPEG"
+            alt="Color palette and creative mood board"
+          />
+
+          <div class="journal-content">
+
+            <p>
+              Inspiration
+            </p>
+
+            <h3>
+              Finding Color Inspiration in Everyday Places
+            </h3>
+
+            <a href="journal/finding-color-inspiration.html">
+              Read story →
+            </a>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- About -->
+
+    <section class="about-section" id="about">
+
+      <div class="about-content reveal">
+
+        <p class="section-label">
+          Our creative story
+        </p>
+
+        <h2>
+          More Than a Shop
+        </h2>
+
+        <p>
+          Art, Craft & Things is a space for making, experimenting,
+          discovering, and sharing beautiful ideas. It brings original
+          artwork, handmade crafts, creative education, and inspiration
+          together under one evolving studio.
+        </p>
+
+        <p>
+          Every piece celebrates creativity, thoughtful details,
+          and the joy of making something with your hands.
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- Newsletter -->
+
+    <section class="newsletter-section">
+
+      <div class="newsletter-content reveal">
+
+        <p class="section-label">
+          Join the creative list
+        </p>
+
+        <h2>
+          New Work, Creative Ideas, and Studio Updates
+        </h2>
+
+        <p>
+          Be the first to see new artwork, handmade collections,
+          workshops, and creative journal posts.
+        </p>
+
+        <form class="newsletter-form" id="newsletterForm">
+
+          <label for="email" class="sr-only">
+            Email address
+          </label>
+
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email address"
+            required
+          />
+
+          <button type="submit">
+            Join the List
+          </button>
+
+        </form>
+
+        <p class="form-message" id="formMessage"></p>
+
+      </div>
+
+    </section>
+
+    <!-- Contact -->
+
+    <section class="contact-section" id="contact">
+
+  <div class="contact-content reveal">
+
+    <p class="section-label">
+      Contact the studio
+    </p>
+
+    <h2>
+      Let’s Create Something
+    </h2>
+
+    <p>
+      Have a question about an item, a custom request,
+      or a creative collaboration?
+    </p>
+
+    <form
+      id="contactForm"
+      class="contact-form"
+      action="https://formspree.io/f/xgogyoor"
+      method="POST"
+    >
+
+      <label for="contactName">
+        Name
+      </label>
+
+      <input
+        type="text"
+        id="contactName"
+        name="name"
+        placeholder="Your name"
+        required
+      >
+
+      <label for="contactEmail">
+        Email
+      </label>
+
+      <input
+        type="email"
+        id="contactEmail"
+        name="email"
+        placeholder="Your email address"
+        required
+      >
+
+      <label for="contactSubject">
+        What can we help with?
+      </label>
+
+      <select
+        id="contactSubject"
+        name="request_type"
+        required
+      >
+        <option value="" disabled selected>
+          Select an option
+        </option>
+
+        <option value="Custom piece request">
+          Custom piece request
+        </option>
+
+        <option value="Product question">
+          Product question
+        </option>
+
+        <option value="Creative collaboration">
+          Creative collaboration
+        </option>
+
+        <option value="General inquiry">
+          General inquiry
+        </option>
+      </select>
+
+      <label for="contactMessage">
+        Message
+      </label>
+
+      <textarea
+        id="contactMessage"
+        name="message"
+        rows="6"
+        placeholder="Tell us about your request..."
+        required
+      ></textarea>
+
+      <button type="submit">
+        Send Message
+      </button>
+
+      <p id="contactFormMessage" class="form-message"></p>
+
+    </form>
+
+    <p class="contact-email-option">
+      Prefer email?
+      <a href="mailto:gegeanyanwu@yahoo.com">
+        Send us an email
+      </a>
+    </p>
+
+  </div>
+
+</section>
+
+</main>
+
+  <!-- Footer -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+
+      <div class="footer-brand">
+
+        <h3>
+          Art, Craft & Things
+        </h3>
+
+        <p>
+          Create • Make • Inspire
+        </p>
+
+      </div>
+
+      <div class="footer-links">
+
+        <div>
+
+          <h4>
+            Explore
+          </h4>
+
+          <a href="#gallery">Gallery</a>
+
+          <a href="#shop">Shop</a>
+
+          <a href="#journal">Journal</a>
+
+        </div>
+
+        <div>
+
+          <h4>
+            Studio
+          </h4>
+
+          <a href="#about">About</a>
+
+          <a href="#contact">Contact</a>
+
+          <a href="#contact">Custom Orders</a>
+
+        </div>
+
+        <div>
+
+          <h4>
+            Follow
+          </h4>
+
+          <a href="#">Instagram</a>
+
+          <a href="#">Pinterest</a>
+
+          <a href="#">Facebook</a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <p>
+        © 2026 Art, Craft & Things. All rights reserved.
+      </p>
+
+      <p>
+        Made with creativity and care.
+      </p>
+
+    </div>
+
+  </footer>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
